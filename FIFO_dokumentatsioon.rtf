@@ -1,113 +1,46 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 TimesNewRomanPS-BoldMT;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 TimesNewRomanPSMT;
-\f3\froman\fcharset0 Times-Roman;\f4\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red24\green112\blue43;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c9412\c50196\c21961;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
-{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sl360\slmult1\partightenfactor0
+Dokumentatsioon
 
-\f0\b\fs32 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Dokumentatsioon
-\f1\fs28 \
-\
-1.  
-\f2\b0\fs32 J\'e4rjekorra haldamise programm\
-\pard\pardeftab720\sl360\slmult1\partightenfactor0
-\cf0 \uc0\u8232 See programm simuleerib patsientide j\'e4rjekorda, kasutades FIFO (First In, First Out) andmestruktuuri. See v\'f5imaldab patsientide lisamist, v\'e4ljakutsumist ja j\'e4rgmist patsiendi vaatamist. Programmi p\'f5hi\'fclesanded on j\'e4rgmised:
-\f3\fs24 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
-\ls1\ilvl0
-\f4\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 patients
-\f2 \cf0 \strokec2 :
-\fs32  Loend, mis salvestab j\'e4rjekorras olevad patsiendid.
-\f0\b \
-\ls1\ilvl0
-\f4\b0\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 add_patient(name)
-\f2\fs32 \cf0 \strokec2 : Lisab patsiendi nime j\'e4rjekorda.
-\f0\b \
-\ls1\ilvl0
-\f4\b0\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 call_patient()
-\f2\fs32 \cf0 \strokec2 : Eemaldab ja tagastab esimese patsiendi j\'e4rjekorrast v\'f5i tagastab teate, kui j\'e4rjekord on t\'fchi.
-\f0\b \
-\ls1\ilvl0
-\f4\b0\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 next_patient()
-\f2\fs32 \cf0 \strokec2 : Tagastab j\'e4rgmise patsiendi nime, ilma et seda j\'e4rjekorrast eemaldataks, v\'f5i tagastab teate, kui j\'e4rjekord on t\'fchi.
-\f0\b \
-\ls1\ilvl0
-\f4\b0\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 queue_size()
-\f2\fs32 \cf0 \strokec2 : Tagastab j\'e4rjekorras olevate patsientide arvu.
-\f0\b \
-\ls1\ilvl0
-\f4\b0\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 __str__()
-\f2 \cf0 \strokec2 :
-\fs32  Kuvab j\'e4rjekorras olevate patsientide nimed stringina.\
-\pard\tx720\pardeftab720\sl360\slmult1\partightenfactor0
+Järjekorra haldamise programm
 
-\f0\b \cf0 \
-\pard\pardeftab720\sl360\slmult1\partightenfactor0
+See programm simuleerib patsientide järjekorda, kasutades FIFO (First In, First Out) andmestruktuuri. See võimaldab patsientide lisamist, väljakutsumist ja järgmist patsiendi vaatamist.
 
-\f2\b0 \cf0 2. Ajaline keerukus
-\f1\b\fs28 \
-\pard\pardeftab720\sl360\slmult1\partightenfactor0
 
-\f2\b0\fs32 \cf0 Sisestamise ja kustutamise toimingute ajaline keerukus:
-\f3\fs24 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
-\ls2\ilvl0
-\f4\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 add_patient(name)
-\f2\fs32 \cf0 \strokec2 :
-\f0\b \
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl360\slmult1\partightenfactor0
-\ls2\ilvl1
-\f2\b0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Ajaline keerukus: O(1)\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 P\'f5hjendus: Patsiendi lisamine loendi l\'f5ppu on konstantse aja operatsioon, kuna Python loendi append() meetod on optimeeritud, et see toimuks kiiresti.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
-\ls2\ilvl0
-\f4\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 call_patient()
-\f2\fs32 \cf0 \strokec2 :
-\f0\b \
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl360\slmult1\partightenfactor0
-\ls2\ilvl1
-\f2\b0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Ajaline keerukus: O(n)\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 P\'f5hjendus: Esiteks tuleb eemaldada esimene element loendist, mis t\'e4hendab, et k\'f5ik j\'e4rgnevad elemendid peavad liikuma \'fche koha v\'f5rra ettepoole. Seet\'f5ttu on see operatsioon lineaarne.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
-\ls2\ilvl0
-\f4\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 next_patient()
-\f2 \cf0 \strokec2 :
-\f0\b \
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl360\slmult1\partightenfactor0
-\ls2\ilvl1
-\f2\b0\fs32 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Ajaline keerukus: O(1)\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 P\'f5hjendus: J\'e4rgmise patsiendi nime vaatamine ei n\'f5ua muudatust loendis, mist\'f5ttu on see konstantse aja operatsioon.\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\slmult1\partightenfactor0
-\ls2\ilvl0
-\f4\fs26\fsmilli13333 \cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 queue_size()
-\f2 \cf0 \strokec2 :
-\f0\b \
-\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl360\slmult1\partightenfactor0
-\ls2\ilvl1
-\f2\b0\fs32 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Ajaline keerukus: O(1)\
-\ls2\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 P\'f5hjendus: Loendi pikkuse saamine on konstantne operatsioon, kuna Python hoiab loendi suurust pidevalt silmas.\
-}
+Programmi põhiülesanded on järgmised:
+
+patients: Loend, mis salvestab järjekorras olevad patsiendid.
+
+add_patient(name): Lisab patsiendi nime järjekorda.
+
+call_patient(): Eemaldab ja tagastab esimese patsiendi järjekorrast või tagastab teate, kui järjekord on tühi.
+
+next_patient(): Tagastab järgmise patsiendi nime, ilma et seda järjekorrast eemaldataks, või tagastab teate, kui järjekord on tühi.
+
+queue_size(): Tagastab järjekorras olevate patsientide arvu.
+
+__str__(): Kuvab järjekorras olevate patsientide nimed stringina.
+
+
+
+2. Ajaline keerukus
+
+Sisestamise ja kustutamise toimingute ajaline keerukus:
+
+
+add_patient(name):
+Ajaline keerukus: O(1)
+Põhjendus: Patsiendi lisamine loendi lõppu on konstantse aja operatsioon, kuna Python loendi append() meetod on optimeeritud, et see toimuks kiiresti.
+
+
+call_patient():
+Ajaline keerukus: O(n)
+Põhjendus: Esiteks tuleb eemaldada esimene element loendist, mis tähendab, et kõik järgnevad elemendid peavad liikuma ühe koha võrra ettepoole. Seetõttu on see operatsioon lineaarne.
+
+
+next_patient():
+Ajaline keerukus: O(1)
+Põhjendus: Järgmise patsiendi nime vaatamine ei nõua muudatust loendis, mistõttu on see konstantse aja operatsioon.
+
+
+queue_size():
+Ajaline keerukus: O(1)
+Põhjendus: Loendi pikkuse saamine on konstantne operatsioon, kuna Python hoiab loendi suurust pidevalt silmas.
