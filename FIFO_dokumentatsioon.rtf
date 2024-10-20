@@ -1,46 +1,25 @@
 Dokumentatsioon
 
-Järjekorra haldamise programm
-
-See programm simuleerib patsientide järjekorda, kasutades FIFO (First In, First Out) andmestruktuuri. See võimaldab patsientide lisamist, väljakutsumist ja järgmist patsiendi vaatamist.
-
-
-Programmi põhiülesanded on järgmised:
-
-patients: Loend, mis salvestab järjekorras olevad patsiendid.
-
-add_patient(name): Lisab patsiendi nime järjekorda.
-
-call_patient(): Eemaldab ja tagastab esimese patsiendi järjekorrast või tagastab teate, kui järjekord on tühi.
-
-next_patient(): Tagastab järgmise patsiendi nime, ilma et seda järjekorrast eemaldataks, või tagastab teate, kui järjekord on tühi.
-
-queue_size(): Tagastab järjekorras olevate patsientide arvu.
-
-__str__(): Kuvab järjekorras olevate patsientide nimed stringina.
-
-
+1.  Järjekorra haldamise programm
+ See programm simuleerib patsientide järjekorda, kasutades FIFO (First In, First Out) andmestruktuuri. See võimaldab patsientide lisamist, väljakutsumist ja järgmist patsiendi vaatamist. Programmi põhiülesanded on järgmised:
+	•	patients: Loend, mis salvestab järjekorras olevad patsiendid.
+	•	add_patient(name): Lisab patsiendi nime järjekorda.
+	•	call_patient(): Eemaldab ja tagastab esimese patsiendi järjekorrast või tagastab teate, kui järjekord on tühi.
+	•	next_patient(): Tagastab järgmise patsiendi nime, ilma et seda järjekorrast eemaldataks, või tagastab teate, kui järjekord on tühi.
+	•	queue_size(): Tagastab järjekorras olevate patsientide arvu.
+	•	__str__(): Kuvab järjekorras olevate patsientide nimed stringina.
 
 2. Ajaline keerukus
-
 Sisestamise ja kustutamise toimingute ajaline keerukus:
-
-
-add_patient(name):
-Ajaline keerukus: O(1)
-Põhjendus: Patsiendi lisamine loendi lõppu on konstantse aja operatsioon, kuna Python loendi append() meetod on optimeeritud, et see toimuks kiiresti.
-
-
-call_patient():
-Ajaline keerukus: O(n)
-Põhjendus: Esiteks tuleb eemaldada esimene element loendist, mis tähendab, et kõik järgnevad elemendid peavad liikuma ühe koha võrra ettepoole. Seetõttu on see operatsioon lineaarne.
-
-
-next_patient():
-Ajaline keerukus: O(1)
-Põhjendus: Järgmise patsiendi nime vaatamine ei nõua muudatust loendis, mistõttu on see konstantse aja operatsioon.
-
-
-queue_size():
-Ajaline keerukus: O(1)
-Põhjendus: Loendi pikkuse saamine on konstantne operatsioon, kuna Python hoiab loendi suurust pidevalt silmas.
+	1	add_patient(name):
+	◦	Ajaline keerukus: O(1)
+	◦	Põhjendus: Patsiendi lisamine loendi lõppu on konstantse aja operatsioon, kuna Python loendi append() meetod on optimeeritud, et see toimuks kiiresti.
+	2	call_patient():
+	◦	Ajaline keerukus: O(n)
+	◦	Põhjendus: Esiteks tuleb eemaldada esimene element loendist, mis tähendab, et kõik järgnevad elemendid peavad liikuma ühe koha võrra ettepoole. Seetõttu on see operatsioon lineaarne.
+	3	next_patient():
+	◦	Ajaline keerukus: O(1)
+	◦	Põhjendus: Järgmise patsiendi nime vaatamine ei nõua muudatust loendis, mistõttu on see konstantse aja operatsioon.
+	4	queue_size():
+	◦	Ajaline keerukus: O(1)
+	◦	Põhjendus: Loendi pikkuse saamine on konstantne operatsioon, kuna Python hoiab loendi suurust pidevalt silmas.
