@@ -1,1 +1,3 @@
-😍Siin on minu algoritmide kodutööd😍
+              TÄHELEPANU!
+
+😍 Siin on minu algoritmide kodutööd 😍
