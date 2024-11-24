@@ -1,0 +1,21 @@
+Ülesanne 1: Räsimine
+
+1. Räsimise kontseptsioon: põhiidee ja eesmärk
+Räsimine (hashing) on meetod andmete teisendamiseks kindla pikkusega väärtuseks, mida nimetatakse räsiks. 
+Selleks kasutatakse räsifunktsiooni, mis võtab sisendi ja genereerib sellele vastava unikaalse numbrilise või tähe/numbrilise väljundi.
+
+Eesmärgid:
+Kiire andmete otsimine ja haldamine: Räsimist kasutatakse näiteks andmestruktuurides nagu hash-tabelid, et pakkuda O(1) keskmise ajaga otsingut.
+Andmete tervikluse kontroll: Räsiväärtusi kasutatakse failide või sõnumite muutumatuse kinnitamiseks.
+Krüptograafia: Räsimine on oluline paroolide salvestamisel ja andmete turvalisuse tagamisel.
+
+2. Hea räsifunktsiooni omadused
+Ühtlane jaotus: Vähendab kokkupõrkeid.
+Deterministlikkus: Sama sisend → sama väljund.
+Kokkusurutus: Pikk sisend → fikseeritud pikkusega räsi.
+Kokkuvõttev erinevus: Erinevad sisendid → erinevad räsi väärtused.
+Kiirus: Kiire arvutus suurte andmete jaoks.
+
+3. Kokkupõrgete lahendamine
+Eraldi aheldamine: Kokkupõrke korral hoitakse elemendid lingitud nimekirjas. Lihtne, kuid aeglasem suure andmemahtu korral.
+Avatud aadresseerimine: Vaba pesa otsitakse (nt lineaarne või ruuteline sondimine). Säästab mälu, kuid vajab hõredat tabelit.
