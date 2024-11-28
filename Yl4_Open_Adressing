@@ -1,0 +1,18 @@
+
+Ülesanne 4: Open Addressing Tehnikate Uurimine
+
+Avatud aadressimise meetod kokkupõrgete lahendamisel räsimises:
+Avatud aadressimisel otsitakse kokkupõrke korral vaba kohta samas tabelis,
+kasutades teatud algoritmi (nt lineaarne otsing, ruuduline otsing, topelträsimine).
+
+
+Tehnika võrdlus:
+Lineaarne otsing: Liigub järjest edasi järgmistes kohtades, võib põhjustada klastreid.
+Ruuduline otsing: Liigub ruudulise sammuga, vähendades klastrite tekkimist.
+Topelträsimine: Kasutab teist räsi funktsiooni, vähendab kõige rohkem klastreid.
+
+
+Efektiivsus:
+Lineaarne otsing: Lihtne, sobib väikeste tabelite jaoks, kuid kannatab klastrite all.
+Ruuduline otsing: Paremini jaotatud kui lineaarne, kuid võib siiski olla ebaefektiivne kõrge täitumusega tabelites.
+Topelträsimine: Parim jõudlus, eriti suurte ja tihedalt täidetud tabelite puhul.
