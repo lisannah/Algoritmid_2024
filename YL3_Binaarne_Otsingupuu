@@ -1,0 +1,31 @@
+
+Ülesanne 3: Binaarse Otsingupuu (Binary Search Tree, BST) Teoreetiline Analüüs
+
+
+Mis on Binaarse otsingupuu (BST) andmestruktuur?
+
+Binaarne otsingupuu (BST) on puuandmestruktuur, kus igal sõlmel on järgmised omadused:
+Vasak alampuu: Kõik vasaku alampuu sõlmede väärtused on väiksemad kui juure väärtus.
+Parem alampuu: Kõik parema alampuu sõlmede väärtused on suuremad kui juure väärtus.
+Sõlmed: Igal sõlmel on väärtus, vasak ja parem laps, ning need järgivad BST omadusi.
+
+
+Põhielemendid:
+
+Juursõlm (Root): Puu ülemine sõlm.
+Vanem (Parent): Sõlm, millel on lapsi.
+Lapsed (Children): Sõlmed, mis on seotud vanema kaudu (vasak ja parem).
+Äär (Edge): Ühendus kahe sõlme vahel.
+Leht (Leaf): Sõlm, millel pole lapsi.
+
+
+
+Tasakaalustamata puu mõju ja optimeerimine:
+
+Tasakaalustamata BST: Kui puu on tasakaalustamata (nt kui lisatakse järjest suurenevaid või kahanevaid väärtusi), võib puu kujuneda lihtsaks lingiks (kõik sõlmed üksteise all), mille tulemuseks on aja keerukus O(n)otsingul, lisamisel ja kustutamisel.
+Optimeerimine:
+Tasakaalu hoidmine: Kui puu on tasakaalus (nt AVL-puu või punane-must puu), siis otsing, lisamine ja kustutamine on O(log n).
+Kuidas tasakaalustada: Tasakaalu hoidmiseks kasutatakse erinevaid tehnikaid, nagu puu ringikujundus või tasakaalu jälgimine pärast iga operatsiooni.
+
+
+
