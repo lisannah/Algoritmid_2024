@@ -1,0 +1,27 @@
+Ülesanne 2: Kuhja (Heap) Struktuuri Teoreetiline Analüüs
+
+
+Min-kuhi ja Max-kuhi teoreetilised omadused:
+Min-kuhi: Juureelemendis on alati väikseim väärtus. Iga vanemsõlm on väiksem või võrdne oma alamsõlmedega.
+Max-kuhi: Juureelemendis on alati suurim väärtus. Iga vanemsõlm on suurem või võrdne oma alamsõlmedega.
+Kasutatakse: Binaarse puu või massiivina, kus indekseerimine võimaldab efektiivset navigatsiooni.
+
+Aja- ja ruumikompleksus:
+Lisamine: O(log n) – elemendi lisamine ja paigutamine õigesse kohta.
+Eemaldamine (min/max): O(log n) – juure eemaldamine ja struktuuri tasakaalustamine.
+Ehitamine (heapify): O(n) – massiivist kuhja loomine.
+Otsing (suvaline element): O(n) – pole otseselt optimeeritud.
+Ruumikompleksus: O(n) – mahutab kõik elemendid.
+Erinevus seisneb selles, et min-kuhis hoitakse väikseimat väärtust tipus, max-kuhis suurimat, kuid aja- ja ruumiline keerukus on mõlemal sama.
+
+
+Sobivus andmete sorteerimiseks ja prioriteetjärjekordade haldamiseks
+
+Andmete sorteerimine (Heapsort):
+Min-kuhi: Kasulik sortimiseks kasvavas järjekorras.
+Max-kuhi: Kasulik sortimiseks kahanevas järjekorras.
+Kuna mõlemad tagavad efektiivse sortimise, sobivad nad hästi suurte andmehulkade töötlemiseks.
+
+Prioriteetjärjekorrad:
+Min-kuhi: Sobib olukordades, kus väikseima prioriteediga elemendid on esimesed (nt Dijkstra algoritmis).
+Max-kuhi: Kasulik, kui on vaja kiirelt leida kõrgeima prioriteediga elemente (nt protsessorite ajastamine).
