@@ -1,0 +1,23 @@
+BOONUSÜLESANNE
+
+Binaarpuude tasakaalustamise algoritmid:
+
+AVL-puu:
+Tasakaal: Rangelt tasakaalustatud, kõrgus O(log n).
+Optimeerimine: Kiire otsing, lisamine, kustutamine.
+Rakendused: Sobib andmebaasidele, kus otsing on oluline.
+
+Punase-musta puu:
+Tasakaal: Paindlik tasakaal, kõrgus O(log n).
+Optimeerimine: Kiirem lisamine/kustutamine võrreldes AVL-puuga.
+Rakendused: Sobib prioriteetjärjekordadele ja dünaamilistele andmesüsteemidele.
+
+Splay-puu:
+Tasakaal: Ei ole rangelt tasakaalustatud.
+Optimeerimine: Kiire juurdepääs sagedasti kasutatavatele sõlmedele.
+Rakendused: Sobib rakendustes, kus mõned sõlmed on sageli kasutuses.
+
+B-puu:
+Tasakaal: Tasakaalustatud, mitu last sõlmel.
+Optimeerimine: Kiired operatsioonid suurte andmekogumite puhul.
+Rakendused: Sobib andmebaasidele ja failisüsteemidele.
