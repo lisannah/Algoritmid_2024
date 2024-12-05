@@ -40,4 +40,4 @@ for väärtus in [5, 3, 7, 2, 4, 6, 8]:  # Lisatakse väärtused puusse
     puu.lisa(väärtus)
 
 print("Järjestikune läbikäik:", end=" ") 
-puu.läbikäik(puu.juur)  # Prinditakse väärtused järjestatud kujul: vasak alampuu → juur → parem alampuu
+puu.läbikäik(puu.juur)  # Prinditakse väärtused järjestatud kujul
