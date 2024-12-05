@@ -1,0 +1,27 @@
+
+Ülesanne 5: AVL Puu vs. Puna-Musta Puu Teoreetiline Võrdlus
+
+Mis on AVL puu?
+
+AVL-puu on tasakaalustatud binaarne otsingupuu, millel on järgmised omadused:
+Tasakaalu tegur iga sõlme jaoks peab olema vahemikus -1 kuni +1.
+Kui tasakaalu tegur ületab selle vahemiku, siis puu tasakaalustatakse pöörangutega.
+Puu kõrgus on alati O(log n), mis tagab kiirete operatsioonide (otsing, lisamine, kustutamine) aja keerukuse O(log n).
+
+
+
+AVL puu VS  puna-musta puu tõhusus
+
+AVL-puu:
+Rangem tasakaal, kõrgus on alati O(log n).
+Kiirem otsing, lisamine ja kustutamine, kuna tasakaal on rangem.
+
+Puna-must puu:
+Vähem rangelt tasakaalustatud, kõrgus on samuti O(log n), kuid võib olla veidi suurem kui AVL-puu puhul.
+Aeglased operatsioonid võrreldes AVL-puuga, kuna tasakaalu taastamine on paindlikum.
+
+
+
+Rakendused ja eelised:
+AVL-puu: Sobib rakendustes, kus on tähtis kiire otsing, kuna see tagab rangema tasakaalu (nt andmebaasid, kus otsing on sageli oluline).
+Puna-must puu: Sobib rakendustes, kus lisamise ja kustutamise operatsioonide kiirus on olulisem (nt prioriteetjärjekorrad, kus sagedased muudatused on tavalised).
