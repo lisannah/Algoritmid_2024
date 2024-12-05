@@ -1,0 +1,35 @@
+
+Ülesanne 4: Puna-Musta Puu (Red-Black Tree) Teoreetiline Ülevaade
+
+
+Mis on puna-must puu?
+
+Puna-musta puu on tasakaalustatud binaarne otsingupuu, kus iga sõlm on värvitud punaseks või mustaks. Selle reeglid on:
+Kõik sõlmed on kas punased või mustad.
+Juursõlm on alati must.
+Punase sõlme lapsed on alati mustad (ehk kaks punast sõlme ei saa olla järjestikku).
+Iga tee juurest lehtedeni peab sisaldama sama arvu musti sõlme.
+Lehed (tühjad sõlmed) on alati mustad.
+
+
+Puna-must puu vs binaarne otsingupuu efektiivsus ja kiirus
+
+Puna-musta puu pakub pidevalt O(log n) ajaga operatsioone, kuna see tagab automaatselt puu tasakaalu, sõltumata sisestatud väärtuste järjekorrast.
+Binaarne otsingupuu võib olla vähem efektiivne ja aeglane, kui puu on tasakaalustamata, kuna selle kõrgus võib ulatuda O(n)-ni. Kuid kui puu on tasakaalus, saab ka BST pakkuda sama efektiivsust kui puna-musta puu (O(log n)).
+
+
+
+
+Puna-musta puu tasakaalustamise ja värvireeglite mõjust tõhususele:
+
+Puu kõrgus on O(log n): Värvireeglid tagavad tasakaalu, vältides liigset kõrgust.
+Punased sõlmed ei saa olla järjestikku: Takistab puu degenereerumist liiniks.
+Mustade sõlmede arv on ühtlane: Kõik teed juurest lehtedeni on sama pikkusega.
+Ebaefektiivne struktuur vältida: Reeglid hoiavad puu efektiivsena.
+Tõhusus: Kõik operatsioonid (otsing, lisamine, kustutamine) toimuvad O(log n) ajaga.
+
+
+
+
+
+
