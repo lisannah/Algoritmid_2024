@@ -1,0 +1,16 @@
+Dijkstra algoritm
+
+Dijkstra algoritm on graafi otsingumeetod, mille eesmärk on leida lühim tee alguspunktist kõigi teiste punktideni.
+Algoritm töötab, määrates iga sõlme kauguse alguspunktist ja arvestades iga sõlme naabruses olevate sõlmede kaugusi.
+Selleks kasutatakse sageli prioritiseeritud järjekorda (nt min-heap), et alati valida sõlm, mille kaugus on hetkel minimaalne,
+ja seejärel värskendada naabruses olevate sõlmede kaugusi.
+
+Efektiivne on Dijkstra algoritm, kui:
+
++ Kõik graafi servad on positiivsed 
++ Graaf on tihe ja meil on vaja leida lühim tee kõikide sõlmede vahel
+
+Ebaefektiivne on see, kui:
+
+- Graafi servadel on negatiivsed kaalud (siis tuleb kasutada Bellman-Ford algoritmi)
+- Graaf on väga suur ja hajutatud, mis muudab algoritmi aeglasemaks, kuna iga sõlme kohta tuleb palju arvutusi teha
