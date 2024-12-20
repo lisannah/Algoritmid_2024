@@ -7,7 +7,7 @@ ja seejärel värskendada naabruses olevate sõlmede kaugusi.
 
 Efektiivne on Dijkstra algoritm, kui:
 
-+ Kõik graafi servad on positiivsed 
++ Kõik graafi servad on mitte-negatiivsed
 + Graaf on tihe ja meil on vaja leida lühim tee kõikide sõlmede vahel
 
 Ebaefektiivne on see, kui:
