@@ -1,0 +1,20 @@
+P vs NP probleem 
+
+P vs NP probleem uurib, kas kõik probleemid,
+mille lahendust saab kiiresti kontrollida (NP),
+saab ka kiiresti lahendada (P).
+
+Tähtsus arvutiteaduses:
+Kui P = NP, siis saaksime lahendada paljusid keerulisi ülesandeid kiiresti.
+Kui P ≠ NP, siis mõned probleemid jäävad kiirelt lahendamatuks.
+
+Lahendamise olulisus: 
+P vs NP lahendamine muudaks arvutiteaduse,
+mõjutades näiteks krüptograafiat, optimeerimist ja algoritmide arengut. 
+
+P = NP tähendaks lihtsamaid lahendusi keerukatele probleemidele.Kuna paljud praegused turvameetodid
+põhinevad just NP-klasside probleemide keerukusel, siis muutusksudb praegused turvameetodid haavatavaks ja vähem turvaliseks.
+
+P ≠ NP kinnitaks, et on olemas probleemid, 
+mida ei saa kiirelt lahendada, isegi kui me saame nende lahendust kiiresti kontrollida,
+Krüptograafia ja teised turvalisuse meetodid,mis tuginevad keerukuse printsiibile, jääksid kehtima.
