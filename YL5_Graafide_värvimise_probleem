@@ -1,0 +1,16 @@
+Graafide värvimise probleem 
+
+Graafide värvimise probleem seisneb sõlmede (või servade) värvimises nii,
+et kaks ühendatud sõlme (või serva) ei oleks samasuguse värviga.
+Seda kasutatakse, et esindada olukordi,
+kus on vaja eristada objekte, mis ei tohi olla samal tasemel või olla omavahel seotud.
+Graafide värvimine on arvutiteaduses oluline,
+kuna see pakub lahendusi keerukatele probleemidele,
+mis on seotud ressursside ja ajastamise piirangutega.
+
+Ressursside jaotamine ja konfliktide lahendamine: 
+Graafide värvimist saab kasutada ressursside jaotamiseks, et vältida konflikte,
+määrates igale üksusele (nt ülesandele, ruumile või kanalile) eraldi "värvi" ehk ressursi.
+Näiteks ajagraafiku koostamisel saab iga ülesandele määrata erinevad ajavahemikud, et vältida kattumist.
+Graafi värvimine aitab tagada, et ressursid ei oleks samal ajal jagatud konfliktis olevatele üksustele,
+optimeerides jaotamist ja vältides ülekoormust.
